@@ -79,7 +79,7 @@ export default function Development() {
   const courses = developmentCourses.map((course, index) => (
     <div key={index} className="container">
       <div className="image">
-        <img src={`http://localhost:8000/public/assets/${course.src}`}></img>
+        <img src={`https://subramanyaraju1112.github.io/edutech-images/${course.src}`}></img>
       </div>
       <div>
         <div className="sentence">
